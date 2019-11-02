@@ -1,17 +1,37 @@
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: Arial;
+}
 header {
-  background-color: #41accc;
-  height: 20em;
+  background-color: #3492ad;
+  height: 25em;
   width: 100%;
   margin: 0;
   position: fixed;
   top: 0;
+  color: white;
+}
+header h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  width: 70%;
+}
+header h2 {
+  margin-left: 10rem;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: normal;
+  width: 25%;
+
 }
 header nav ul {
-  background-color: #d3d3d3;
-  height: 8em;
+  background-color: #e0dede;
+  height: 6em;
   width: 100%;
   margin: 0;
   position: absolute;
@@ -26,16 +46,30 @@ ul li{
   flex-basis: 10em;
 }
 main {
-  margin-top: 20em;
-  margin-left: 10em;
+  margin-top: 28em;
+  margin-left: 10rem;
   margin-right: 10em;
+}
+.content-box h3 {
+  color: #3492ad;
 }
 .content-box {
   float: left;
-  width: 75%;
+  width: 70%;
+  margin-right: 5em;
+}
+blockquote {
+  margin: 3em;
+  color: #3492ad;
+  font-size: 1.5rem;
+  font-weight: lighter;
 }
 .sidebar {
+  margin-top: 2rem;
   overflow: hidden;
+}
+.sidebar h3 {
+  text-transform: uppercase;
 }
 .page-footer {
   clear:both;
