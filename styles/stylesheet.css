@@ -49,8 +49,9 @@ main {
   margin-top: 28em;
   margin-left: 10rem;
   margin-right: 10em;
+  margin-bottom: 10em;
 }
-.content-box h3 {
+h3.intro {
   color: #3492ad;
 }
 .content-box {
@@ -65,11 +66,13 @@ blockquote {
   font-weight: lighter;
 }
 .sidebar {
-  margin-top: 2rem;
   overflow: hidden;
 }
 .sidebar h3 {
   text-transform: uppercase;
+}
+.weekly-cat {
+  margin-top: 3rem;
 }
 .page-footer {
   clear:both;
