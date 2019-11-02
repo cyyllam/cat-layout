@@ -1,12 +1,6 @@
 * {
   box-sizing: border-box;
 }
-/* .content-box {
-  float: left;
-} */
-/* .sidebar {
-  float: left;
-} */
 header {
   background-color: #41accc;
   height: 20em;
@@ -26,7 +20,6 @@ header nav ul {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-
 }
 ul li{
   list-style: none;
@@ -34,16 +27,17 @@ ul li{
 }
 main {
   margin-top: 20em;
+  margin-left: 10em;
+  margin-right: 10em;
 }
-
-
-/* main {
-  overflow: auto;
-} */
-/* section {
-  margin-top: 12rem;
-  overflow: auto;
-} */
-/* footer {
+.content-box {
+  float: left;
+  width: 75%;
+}
+.sidebar {
+  overflow: hidden;
+}
+.page-footer {
+  clear:both;
   background-color: grey;
-} */
+}
