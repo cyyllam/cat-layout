@@ -7,6 +7,10 @@ a {
 body {
   font-family: Arial;
 }
+mark {
+  color: #3492ad;
+  background: none;
+}
 header {
   background-color: #3492ad;
   height: 25em;
@@ -31,25 +35,32 @@ header h2 {
   font-weight: normal;
   width: 25%;
 }
-header nav ul {
+header nav{
   background-color: #e0dede;
   height: 6em;
   width: 100%;
   margin: 0;
   position: absolute;
   bottom: 0;
+}
+header nav ul {
   padding-left: 0;
   display: flex;
+  flex-direction: row;
   align-items: center;
+  margin-left: 10rem;
+  margin-top: 2.5em;
 }
 header nav ul li{
-  float: left;
-  align-items: center;
   margin: 0;
   list-style: none;
-  margin-left: 10rem;
   font-weight: bold;
-  font-style: italic;
+}
+.nav-separator {
+  border-right-style: solid;
+  border-right-color: #595757;
+  padding-right: 1rem;
+  margin-right: 1rem;
 }
 .nav-link {
   color: #595757;
@@ -62,6 +73,7 @@ main {
 }
 h3.intro {
   color: #3492ad;
+  margin-top: 0;
 }
 .content-box {
   float: left;
@@ -117,11 +129,11 @@ blockquote {
 li.separator {
   border-right-style: solid;
   border-right-color: white;
-  padding-right: 1.5rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
 }
 .page-footer li {
   list-style: none;
-  margin-right: 1.5rem;
 }
 .footer-link {
   color: white;
