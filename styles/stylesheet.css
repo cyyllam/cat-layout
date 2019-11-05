@@ -82,19 +82,23 @@ h3.intro {
   width: 70%;
   margin-right: 5em;
 }
-.sidebar::after{
-  content: "";
-  display: block;
-  clear: both
-}
 blockquote {
   margin: 3em;
   color: #3492ad;
   font-size: 1.5rem;
   font-weight: lighter;
 }
+.sidebar {
+  overflow: hidden;
+}
+.sidebar::after{
+  content: "";
+  display: block;
+  clear: both
+}
 .sidebar h3 {
   text-transform: uppercase;
+  margin: 0;
 }
 .sidebar a {
   color: #3492ad;
